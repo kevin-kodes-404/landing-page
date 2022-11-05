@@ -31,3 +31,42 @@ a {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero-cont {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 128px 32px;
+}
+
+.hero-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+img {
+    max-width: 500px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    max-width: 100px;
+}
