@@ -65,13 +65,13 @@ img {
 }
 
 .hero-cont a {
+    display: flex;
+    margin-right: auto;
     background-color: #3882f6;
     color: #f9faf8;
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
-    max-width: 125px;
-    max-height: 50px;
     text-decoration: none;
     text-align: center;
 }
@@ -154,11 +154,12 @@ img {
 }
 
 .action-cont a {
+    display: flex;
+    margin-left: auto;
+    flex-shrink: 0;
     border: 2px solid #f9faf8;
     border-radius: 8px;
     padding: 8px 32px;
-    max-width: 125px;
-    max-height: 50px;
     color:#f9faf8;
     text-align: center;
     text-decoration: none;
