@@ -25,7 +25,7 @@ ul {
     padding: 0px;
 }
 
-a {
+.header-cont a {
     text-decoration: none;
     padding: 8px 24px;
     color: #e5e7eb;
@@ -64,14 +64,16 @@ img {
     color: #e5e7eb;
 }
 
-button {
+.hero-cont a {
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9faf8;
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
     max-width: 125px;
     max-height: 50px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .info-header {
@@ -154,13 +156,15 @@ button {
     color: #e5e7eb;
 }
 
-.action-cont button {
+.action-cont a {
     border: 2px solid #f9faf8;
     border-radius: 8px;
     padding: 8px 32px;
     max-width: 125px;
     max-height: 50px;
-    color:#f9faf8
+    color:#f9faf8;
+    text-align: center;
+    text-decoration: none;
 }
 
 .footer {
