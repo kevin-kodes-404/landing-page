@@ -1,0 +1,33 @@
+body {
+font-family: Roboto, 'Helvetica', sans-serif;
+display: flex;
+flex-direction: column;
+}
+
+.header-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+    background-color: #1F2937;
+}
+
+.header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 24px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
